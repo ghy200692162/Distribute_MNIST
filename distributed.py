@@ -17,7 +17,7 @@ flags.DEFINE_float('learning_rate', 0.01, 'Learning rate')
 # 参数服务器parameter server节点
 flags.DEFINE_string('ps_hosts', '192.168.50.12:22221', 'Comma-separated list of hostname:port pairs')
 # 两个worker节点
-flags.DEFINE_string('worker_hosts', '192.168.50.12:22222,192.168.50.13:22222',
+flags.DEFINE_string('worker_hosts', '192.168.50.13:22221',
                     'Comma-separated list of hostname:port pairs')
 # 设置job name参数
 flags.DEFINE_string('job_name', None, 'job name: worker or ps')
